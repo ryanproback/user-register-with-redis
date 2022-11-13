@@ -33,6 +33,7 @@ class UserRegisterContext(
 
     fun update(request: RequiredInfoPutRequest) {
         this.username = request.username
+        this.birth = request.birth
     }
 }
 

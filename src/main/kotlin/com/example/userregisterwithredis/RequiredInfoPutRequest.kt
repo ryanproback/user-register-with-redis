@@ -1,3 +1,5 @@
 package com.example.userregisterwithredis
 
-data class RequiredInfoPutRequest(val username: String)
+import java.time.LocalDate
+
+data class RequiredInfoPutRequest(val username: String, val birth: LocalDate)
